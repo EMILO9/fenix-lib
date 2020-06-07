@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>standard-component | Fenix Component Library</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    
+    <meta name="description" content="Documentation site for the Fenix component library plugin">
+    <link rel="preload" href="/assets/css/0.styles.9bcdb81a.css" as="style"><link rel="preload" href="/assets/js/app.e82983ab.js" as="script"><link rel="preload" href="/assets/js/2.753badac.js" as="script"><link rel="preload" href="/assets/js/12.5f615ed1.js" as="script"><link rel="preload" href="/assets/js/4.e590ad01.js" as="script"><link rel="preload" href="/assets/js/7.991d5bc4.js" as="script"><link rel="preload" href="/assets/js/5.9b9f4150.js" as="script"><link rel="prefetch" href="/assets/js/10.29ca5baa.js"><link rel="prefetch" href="/assets/js/11.40b6e9a6.js"><link rel="prefetch" href="/assets/js/13.f46dba93.js"><link rel="prefetch" href="/assets/js/3.41b080a5.js"><link rel="prefetch" href="/assets/js/6.f5f8f6b1.js"><link rel="prefetch" href="/assets/js/8.cbcd5901.js"><link rel="prefetch" href="/assets/js/9.21409994.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.9bcdb81a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Fenix Component Library</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide.html" class="nav-link">
+  Getting Started
+</a></div><div class="nav-item"><a href="/components/" class="nav-link router-link-active">
+  Components
+</a></div><div class="nav-item"><a href="/components/.html" class="nav-link">
+  GitHub
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide.html" class="nav-link">
+  Getting Started
+</a></div><div class="nav-item"><a href="/components/" class="nav-link router-link-active">
+  Components
+</a></div><div class="nav-item"><a href="/components/.html" class="nav-link">
+  GitHub
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Components</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/components/standard-component.html" aria-current="page" class="active sidebar-link">standard-component</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/components/standard-component.html#example" class="sidebar-link">Example</a></li><li class="sidebar-sub-header"><a href="/components/standard-component.html#source-code" class="sidebar-link">Source Code</a></li><li class="sidebar-sub-header"><a href="/components/standard-component.html#slots" class="sidebar-link">slots</a></li><li class="sidebar-sub-header"><a href="/components/standard-component.html#props" class="sidebar-link">props</a></li></ul></li><li><a href="/components/fenix-button.html" class="sidebar-link">fenix-button</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="standard-component"><a href="#standard-component" class="header-anchor">#</a> standard-component</h1> <p>Wow! This component is awesome.</p> <h2 id="example"><a href="#example" class="header-anchor">#</a> Example</h2> <div><div><div>
+    This is slot content 1.
+  </div> <div>
+    This is slot content 2.
+  </div></div></div> <h2 id="source-code"><a href="#source-code" class="header-anchor">#</a> Source Code</h2> <div><div class="language-vue extra-class"><pre class="language-vue"><code>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>slot</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>slot</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'standard-component'</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span></code></pre></div></div> <h2 id="slots"><a href="#slots" class="header-anchor">#</a> slots</h2> <p>...</p> <h2 id="props"><a href="#props" class="header-anchor">#</a> props</h2> <p>...</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/components/fenix-button.html">
+        fenix-button
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.e82983ab.js" defer></script><script src="/assets/js/2.753badac.js" defer></script><script src="/assets/js/12.5f615ed1.js" defer></script><script src="/assets/js/4.e590ad01.js" defer></script><script src="/assets/js/7.991d5bc4.js" defer></script><script src="/assets/js/5.9b9f4150.js" defer></script>
+  </body>
+</html>
